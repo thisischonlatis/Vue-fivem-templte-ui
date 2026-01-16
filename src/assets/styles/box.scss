@@ -1,0 +1,14 @@
+.box-global {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+
+    width: 200px;
+    height: 100px;
+    background-color: black;
+
+    padding: 10px;
+
+    color: white;
+}
