@@ -28,13 +28,13 @@ export function FormatNumbersOnly(evt) {
 }
 
 export function GetImageUrl(img) {
-    return `nui://esx_inventory/inventory/${img}.png`;
+    return `nui://Chonlatis_inventory/dist/img/items/${img}.png`;
 }
 
 export function playSound(sound_name, val = 0.2) {
     if (!sound_name) return;
 
-    const audio = new Audio(`nui://what_sound/html/sounds/${sound_name}.ogg`);
+    const audio = new Audio(`nui://Chonlatis_sound/html/sounds/${sound_name}.ogg`);
     audio.volume = val;
     audio.play();
 }
